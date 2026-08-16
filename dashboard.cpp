@@ -2,13 +2,13 @@
 using namespace std;
 
 void showDashboardTitle() {
-    cout << "Student Dashboard" << endl;
+    cout << "Student Dashboard - Active" << endl;
     return;
 }
 
 void showDashboard(){
     cout << "Student Portal Dashboard!" << endl;
-    string name = "Vikash Maddeshiya"
+    string name = "Vikash Maddheshiya"
     cout << "1. Profile:";
     cout << name << endl;
     
