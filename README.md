@@ -16,3 +16,17 @@ Before running the project, make sure the following are installed:
 - Git
 - A C++ compiler such as g++
 - A code editor such as Text Editor or Note Pad or Vs Code
+
+## 3. Make the Repository and Push it to Github
+
+Make the repository using: mkdir 2026202015_a1
+
+Initialize the git using : git init 
+
+Define .gitignore file using : touch .gitignore
+
+Create a repository on Github.
+
+Push the local repository to Github
+
+cd <roll_number_a1>
