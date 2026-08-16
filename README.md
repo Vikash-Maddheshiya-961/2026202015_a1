@@ -21,6 +21,8 @@ Before running the project, make sure the following are installed:
 
 Make the repository using: mkdir 2026202015_a1
 
+change directory : cd 2026202015_a1
+
 Initialize the git using : git init 
 
 Define .gitignore file using : touch .gitignore
@@ -29,4 +31,27 @@ Create a repository on Github.
 
 Push the local repository to Github
 
-cd <roll_number_a1>
+## 4. Project Structure
+
+The project is organized as follows:
+
+2026202015_a1/
+|--> README.md
+|--> .gitignore
+| -->src/
+    └── main.cpp
+
+## 5. Build the Project
+
+For the C++ source code, compile the program using:
+
+g++ main.cpp
+
+## 6. Run the Project
+
+Run the compiled program using:
+
+./a.out
+
+
+
