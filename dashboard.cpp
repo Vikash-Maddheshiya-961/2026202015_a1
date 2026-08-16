@@ -13,6 +13,9 @@ void showDashboard(){
     
     cout << "3. Settings" << endl;
     
+    bool active = true;
+    cout << "Account status: " << (active ? "Active" : "Inactive") << endl;
+    
     return;
 }
 
