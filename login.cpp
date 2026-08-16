@@ -18,12 +18,17 @@ void showLogin() {
 
     cout << "Enter password: ";
     cin >> password;
-    
-    cout << "Login attempt for " << username << endl;
-      
-    return;
+
+    if (username.empty() || password.empty()) {
+        cout << "Username and password are required." << endl;
+        return;
+    }
+
+    std::cout << "Login attempt for " << username << endl;
 }
+
 int main(){
-    
+    login_user;
+    showLogin();
     return 0;
 }
