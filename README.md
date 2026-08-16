@@ -53,5 +53,27 @@ Run the compiled program using:
 
 ./a.out
 
+## 7. Git Workflow
 
+The project uses Git for version control.
+
+Basic workflow:
+
+git status
+git add .
+git commit -m "commit message"
+git push origin main
+
+Feature development is performed using separate branches and merged into
+the main branch after completion.
+
+## 8. Branches
+
+The project uses feature branches for different functionality:
+
+- feature-core
+- feature/login
+- feature/profile
+- feature/dashboard
+- feature/settings
 
