@@ -8,6 +8,9 @@ void showSettings(){
 
     cout << "Notifications: " << (notifications ? "Enabled" : "Disabled") << endl;
     
+    bool darkMode = false;
+
+    cout << "Dark mode: " << (darkMode ? "Enabled" : "Disabled") << endl;
     return ;
 }
 
