@@ -33,8 +33,19 @@ void showLogin() {
     return;
 }
 
+void greet_user(string username){
+    cout << "Hello " << username <<" You are Welcome!" << endl;
+    cout << "Learn What you need!" << endl;
+    return;
+}
 int main(){
-    login_user;
+    login_user();
     showLogin();
+    
+    string username;
+    cin >> username;
+    
+    greet_user(username);
+    
     return 0;
 }
