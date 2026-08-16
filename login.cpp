@@ -24,7 +24,13 @@ void showLogin() {
         return;
     }
 
-    std::cout << "Login attempt for " << username << endl;
+    if (username == "student" && password == "1234") {
+        cout << "Login successful.\n";
+    } else {
+        cout << "Invalid credentials.\n";
+    }
+    
+    return;
 }
 
 int main(){
