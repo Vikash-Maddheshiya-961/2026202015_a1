@@ -7,7 +7,7 @@ void showDashboardTitle() {
 }
 
 void showDashboard(){
-    cout << "Student Dashboard!" << endl;
+    cout << "Student Portal Dashboard!" << endl;
     string name = "Vikash Maddeshiya"
     cout << "1. Profile:";
     cout << name << endl;
