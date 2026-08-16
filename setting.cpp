@@ -11,6 +11,11 @@ void showSettings(){
     bool darkMode = false;
 
     cout << "Dark mode: " << (darkMode ? "Enabled" : "Disabled") << endl;
+    
+    string language = "English";
+
+    cout << "Language: " << language << endl;
+    
     return ;
 }
 
