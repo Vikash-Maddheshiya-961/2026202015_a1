@@ -2,7 +2,7 @@
 using namespace std;
 
 void showDashboardTitle() {
-    cout << "Student Dashboard - Active" << endl;
+    cout << "Student Dashboard!" << endl;
     return;
 }
 
