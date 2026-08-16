@@ -9,6 +9,16 @@ void showProfile(){
     cout << "Student Name: " << name << endl;
     cout << "Roll Number: " << rollNumber << endl;
     cout << "Department: " << department << endl;
+    
+    bool profileComplete = true;
+
+    if (profileComplete) {
+        cout << "Profile status: Completed"! << endl;
+    }
+    else{
+        cout << "Profile status: Incomplete!" << endl;
+    }
+    
     return;
 }
 
