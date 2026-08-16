@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void showDashboardTitle() {
+    cout << "Student Dashboard" << endl;
+    return;
+}
+
 void showDashboard(){
     cout << "Student Dashboard!" << endl;
     string name = "Vikash Maddeshiya"
@@ -20,6 +25,7 @@ void showDashboard(){
 }
 
 int main(){
+    showDashboardTitle();
     showDashboard();
     return 0;
 }
